@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ArrosApp</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_item_info">Item Info</string>
+
+    <string name="no_stream">Radio station couldn\'t stream!</string>
+    <string name="live_broadcast">On Air</string>
+    <string name="textview">Station Info</string>
+    <string name="more_info">More Info</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="song_title">Song Title</string>
+    <string name="station_image">Station Image</string>
+    <string name="cover">Cover</string>
+    <string name="button">Button</string>
+    <string name="share_button">Share Button</string>
+    <string name="loading_station">Loading Station..</string>
+    <string name="loading_error">Error loading station..</string>
+    <string name="station_paused">Station Paused..</string>
+    <string name="station_stopped">Station Stopped..</string>
+    <string name="now_playing">Now playing..</string>
+    <string name="station_name">Station Name</string>
+    <string name="area">Area</string>
+    <string name="freq">Freq</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="web">Web</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_nulla_varius_vitae_enim_feugiat_condimentum_etiam_vitae_sem_eu_orci_blandit_tristique_at_sagittis_augue_aenean_in_ante_quis_orci_convallis_pellentesque_duis_placerat_pharetra_nulla_a_sollicitudin_in_sed_posuere_diam_ac_vulputate_dui_proin_consequat_nibh_vitae_mattis_sodales_neque_ante_cursus_diam_sed_finibus_elit_massa_eget_magna_integer_vitae_mattis_purus_at_varius_neque_nullam_condimentum_nibh_feugiat_ipsum_viverra_eget_ullamcorper_neque_malesuada_nulla_facilisi_sed_enim_risus_pellentesque_eget_ante_id_lacinia_tincidunt_nulla_nulla_imperdiet_gravida_quam_a_lacinia_quam_sagittis_eget_proin_condimentum_urna_id_aliquet_fringilla_erat_turpis_congue_urna_vitae_malesuada_sem_nulla_sed_nisi_nunc_sed_porttitor_elit_pellentesque_interdum_odio_eget_tortor_scelerisque_scelerisque_eu_sit_amet_nulla_aliquam_sollicitudin_a_orci_a_viverra_vivamus_elementum_erat_eget_sodales_luctus_dolor_felis_dignissim_nunc_dapibus_efficitur_elit_augue_non_tellus_maecenas_mauris_mi_dignissim_vitae_venenatis_in_convallis_sed_velit_suspendisse_convallis_facilisis_vestibulum_integer_quis_libero_fringilla_laoreet_enim_at_pulvinar_risus_donec_ac_elementum_turpis_a_semper_felis_etiam_malesuada_nisl_et_erat_pulvinar_sed_lacinia_nunc_tincidunt_nam_purus_est_consequat_in_nisl_in_luctus_bibendum_mi_morbi_ut_eros_a_velit_iaculis_ultrices_quis_non_ex_aliquam_mattis_ipsum_eu_pharetra_gravida_nulla_vitae_enim_leo_vivamus_sed_faucibus_felis_nunc_orci_ex_fermentum_vitae_eleifend_in_eleifend_at_dui_quisque_et_mauris_vel_magna_convallis_lacinia_quis_vitae_mauris" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius vitae enim feugiat condimentum. Etiam vitae sem eu orci blandit tristique at sagittis augue. Aenean in ante quis orci convallis pellentesque. Duis placerat pharetra nulla a sollicitudin. In sed posuere diam, ac vulputate dui. Proin consequat, nibh vitae mattis sodales, neque ante cursus diam, sed finibus elit massa eget magna. Integer vitae mattis purus, at varius neque. Nullam condimentum nibh feugiat ipsum viverra, eget ullamcorper neque malesuada. Nulla facilisi. Sed enim risus, pellentesque eget ante id, lacinia tincidunt nulla. Nulla imperdiet gravida quam, a lacinia quam sagittis eget. Proin condimentum, urna id aliquet fringilla, erat turpis congue urna, vitae malesuada sem nulla sed nisi. Nunc sed porttitor elit. Pellentesque interdum odio eget tortor scelerisque scelerisque eu sit amet nulla. Aliquam sollicitudin a orci a viverra. Vivamus elementum, erat eget sodales luctus, dolor felis dignissim nunc, dapibus efficitur elit augue non tellus. Maecenas mauris mi, dignissim vitae venenatis in, convallis sed velit. Suspendisse convallis facilisis vestibulum. Integer quis libero fringilla, laoreet enim at, pulvinar risus. Donec ac elementum turpis, a semper felis. Etiam malesuada nisl et erat pulvinar, sed lacinia nunc tincidunt. Nam purus est, consequat in nisl in, luctus bibendum mi. Morbi ut eros a velit iaculis ultrices quis non ex. Aliquam mattis ipsum eu pharetra gravida. Nulla vitae enim leo. Vivamus sed faucibus felis. Nunc orci ex, fermentum vitae eleifend in, eleifend at dui. Quisque et mauris vel magna convallis lacinia quis vitae mauris.</string>
+    <string name="okay">Okay</string>
+    <string name="station_logo">Station Logo</string>
+    <string name="todo" translatable="false">TODO</string>
+</resources>

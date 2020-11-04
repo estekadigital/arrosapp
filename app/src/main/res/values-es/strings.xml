@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ArrosApp</string>
+    <string name="station_stopped">Estación detenida..</string>
+    <string name="now_playing">Ahora sonando..</string>
+    <string name="station_name">Nombre de estación</string>
+    <string name="area">Área</string>
+    <string name="freq">Freq</string>
+    <string name="address">Dirección</string>
+    <string name="email">Email</string>
+    <string name="web">Web</string>
+    <string name="okay">Aceptar</string>
+    <string name="station_logo">Logo de estación</string>
+    <string name="no_stream">¡La estación de radio no pudo transmitir!</string>
+    <string name="live_broadcast">En el Aire</string>
+    <string name="textview">Información de la estación</string>
+    <string name="more_info">Más Info</string>
+    <string name="artist_name">Nombre del artista</string>
+    <string name="song_title">Título de la canción</string>
+    <string name="station_image">Imagen de la estación</string>
+    <string name="cover">Portada</string>
+    <string name="button">Botón</string>
+    <string name="share_button">Botón de compartir</string>
+    <string name="loading_station">Cargando estación..</string>
+    <string name="loading_error">Error al cargar la estación..</string>
+    <string name="station_paused">Estación Pausada..</string>
+</resources>

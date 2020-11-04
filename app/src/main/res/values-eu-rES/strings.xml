@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ArrosApp</string>
+    <string name="title_item_detail">Elementuaren xehetasuna</string>
+    <string name="title_item_info">Elementuaren informazioa</string>
+    <string name="no_stream">Irratiak ezin izan du transmititu!</string>
+    <string name="live_broadcast">Airean</string>
+    <string name="textview">Irratiko informazioa</string>
+    <string name="more_info">Info gehiago</string>
+    <string name="artist_name">Artistaren izena</string>
+    <string name="song_title">Abestiaren izena</string>
+    <string name="station_image">Irratiko irudia</string>
+    <string name="cover">Azala</string>
+    <string name="button">Botoia</string>
+    <string name="share_button">Partekatzeko botoia</string>
+    <string name="loading_station">Irratia kargatzen..</string>
+    <string name="loading_error">Errorea irratia kargatzen..</string>
+    <string name="station_paused">Irrati pausatua..</string>
+    <string name="station_stopped">Irrati gelditua..</string>
+    <string name="now_playing">Orain jotzen..</string>
+    <string name="station_name">Irratiko izena</string>
+    <string name="freq">Frek</string>
+    <string name="address">Helbidea</string>
+    <string name="email">Emaila</string>
+    <string name="web">Web</string>
+    <string name="okay">Ados</string>
+    <string name="station_logo">Irratiko logoa</string>
+</resources>

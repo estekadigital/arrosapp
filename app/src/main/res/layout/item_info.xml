@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="56dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/app_bar"
+    app:layout_constraintVertical_bias="0.857">
+
+    <ImageView
+        android:id="@+id/iv_station_image"
+        android:layout_width="181dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stationimage"
+        android:contentDescription="@string/station_logo" />
+
+    <TextView
+        android:id="@+id/tv_station_name"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/station_name"
+        android:textIsSelectable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_station_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_station_area"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/area"
+        android:textIsSelectable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_station_image"
+        app:layout_constraintTop_toBottomOf="@+id/tv_station_freq"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:maxLines="2"
+        android:scrollHorizontally="false"
+        />
+
+    <TextView
+        android:id="@+id/tv_station_freq"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/freq"
+        android:textIsSelectable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_station_image"
+        app:layout_constraintTop_toBottomOf="@+id/tv_station_name" />
+
+    <TextView
+        android:id="@+id/tv_station_address"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/address"
+        android:textIsSelectable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_station_image" />
+
+    <TextView
+        android:id="@+id/tv_station_phone"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@android:string/emptyPhoneNumber"
+        android:textIsSelectable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_station_address" />
+
+    <TextView
+        android:id="@+id/tv_station_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/email"
+        android:textIsSelectable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_station_phone" />
+
+    <TextView
+        android:id="@+id/tv_station_web"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/web"
+        android:textIsSelectable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_station_email" />
+
+    <TextView
+        android:id="@+id/tv_station_Long_desc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_nulla_varius_vitae_enim_feugiat_condimentum_etiam_vitae_sem_eu_orci_blandit_tristique_at_sagittis_augue_aenean_in_ante_quis_orci_convallis_pellentesque_duis_placerat_pharetra_nulla_a_sollicitudin_in_sed_posuere_diam_ac_vulputate_dui_proin_consequat_nibh_vitae_mattis_sodales_neque_ante_cursus_diam_sed_finibus_elit_massa_eget_magna_integer_vitae_mattis_purus_at_varius_neque_nullam_condimentum_nibh_feugiat_ipsum_viverra_eget_ullamcorper_neque_malesuada_nulla_facilisi_sed_enim_risus_pellentesque_eget_ante_id_lacinia_tincidunt_nulla_nulla_imperdiet_gravida_quam_a_lacinia_quam_sagittis_eget_proin_condimentum_urna_id_aliquet_fringilla_erat_turpis_congue_urna_vitae_malesuada_sem_nulla_sed_nisi_nunc_sed_porttitor_elit_pellentesque_interdum_odio_eget_tortor_scelerisque_scelerisque_eu_sit_amet_nulla_aliquam_sollicitudin_a_orci_a_viverra_vivamus_elementum_erat_eget_sodales_luctus_dolor_felis_dignissim_nunc_dapibus_efficitur_elit_augue_non_tellus_maecenas_mauris_mi_dignissim_vitae_venenatis_in_convallis_sed_velit_suspendisse_convallis_facilisis_vestibulum_integer_quis_libero_fringilla_laoreet_enim_at_pulvinar_risus_donec_ac_elementum_turpis_a_semper_felis_etiam_malesuada_nisl_et_erat_pulvinar_sed_lacinia_nunc_tincidunt_nam_purus_est_consequat_in_nisl_in_luctus_bibendum_mi_morbi_ut_eros_a_velit_iaculis_ultrices_quis_non_ex_aliquam_mattis_ipsum_eu_pharetra_gravida_nulla_vitae_enim_leo_vivamus_sed_faucibus_felis_nunc_orci_ex_fermentum_vitae_eleifend_in_eleifend_at_dui_quisque_et_mauris_vel_magna_convallis_lacinia_quis_vitae_mauris"
+        app:layout_constraintBottom_toTopOf="@+id/iv_podcast_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_station_web" />
+
+    <ImageView
+        android:id="@+id/iv_podcast_button"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_ok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/podcast"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/okay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
