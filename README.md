@@ -1,0 +1,2 @@
+# arrosapp
+Arrosa Irrati Sarea Euskal Herriko 20tik gora irrati ezberdinek osatzen dugun sarea da: irrati libreak, herri eta eskualde irratiak, edota ikuspegi nazionalekoak. Gure edukietan aniztasuna da nagusi: kultura, feminismoa, hezkuntza, internazinalismoa, ekologismoa, ekonomia eta beste hainbat kontu. Zebrabidea magazina ere ekoizten dugu, astelehenetik ostiralera, arratsaldez. Eta bada altxor bat guztiok barnebiltzen gaituena: euskara
